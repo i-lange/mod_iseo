@@ -1,0 +1,26 @@
+/*
+ * @package    mod_iseo
+ * @author     Pavel Lange <pavel@ilange.ru>
+ * @link       https://github.com/i-lange/mod_iseo
+ * @copyright  (C) 2023 Pavel Lange <https://ilange.ru>
+ * @license    GNU General Public License version 2 or later
+ */
+.mod_iseo {
+  position: relative;
+}
+
+.mod_iseo_spinner {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.mod_iseo .loading .mod_iseo_spinner {
+  display: block;
+}
+
+/*# sourceMappingURL=front.css.map */

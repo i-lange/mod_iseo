@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
+  "name": "mod_iseo",
+  "version": "1.0.0",
+  "description": "mod_iseo Assets",
+  "license": "GNU General Public License version 2 or later",
+  "assets": [
+    {
+      "name": "mod_iseo.front",
+      "type": "style",
+      "uri": "mod_iseo/front.css"
+    },
+    {
+      "name": "mod_iseo.front.min",
+      "type": "style",
+      "uri": "mod_iseo/front.min.css"
+    },
+    {
+      "name": "mod_iseo.front",
+      "type": "script",
+      "uri": "mod_iseo/front.js",
+      "dependencies": ["core"],
+      "attributes": {
+        "defer": true
+      }
+    },
+    {
+      "name": "mod_iseo.front.min",
+      "type": "script",
+      "uri": "mod_iseo/front.min.js",
+      "dependencies": ["core"],
+      "attributes": {
+        "defer": true
+      }
+    }
+  ]
+}
